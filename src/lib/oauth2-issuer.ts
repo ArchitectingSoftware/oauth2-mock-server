@@ -45,7 +45,6 @@ export class OAuth2Issuer extends EventEmitter {
   constructor() {
     super();
     this.url = undefined;
-
     this.#keys = new JWKStore();
   }
 

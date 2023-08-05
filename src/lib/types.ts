@@ -16,6 +16,7 @@ export interface Options {
   key?: string;
   keys: Record<string, unknown>[];
   saveJWK: boolean;
+  wellKnownHostOverride?: string | undefined;
 }
 
 export type HttpServerOptions = Pick<ServerOptions, 'key'> &
